@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling>=1.22"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ss-qsspp"
+version = "0.1.0"
+description = "A tiny QSS preprocessor with variables and color functions."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Schartier Isaac", email = "somndus.studio@gmail.com" }]
+keywords = ["Qt", "QSS", "PySide", "preprocessor", "SCSS"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Software Development :: Build Tools",
+  "Environment :: X11 Applications :: Qt"
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/SomndusStudio/py-qss-preprocessor"
+
+[project.scripts]
+ss-qssppc = "qsspp.cli:main"
