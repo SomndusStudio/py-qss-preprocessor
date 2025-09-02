@@ -3,8 +3,8 @@ requires = ["hatchling>=1.22"]
 build-backend = "hatchling.build"
 
 [project]
-name = "ss-qsspp"
-version = "0.1.0"
+name = "qsspp"
+version = "0.2.0"
 description = "A tiny QSS preprocessor with variables and color functions."
 readme = "README.md"
 requires-python = ">=3.9"

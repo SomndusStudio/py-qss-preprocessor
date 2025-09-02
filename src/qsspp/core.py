@@ -23,7 +23,7 @@ def _hex_to_rgb(s: str):
     if len(s) == 3:
         s = ''.join(ch * 2 for ch in s)
     if len(s) != 6:
-        raise ValueError(f"Couleur invalide: #{s}")
+        raise ValueError(f"Invalid color: #{s}")
     r = int(s[0:2], 16)
     g = int(s[2:4], 16)
     b = int(s[4:6], 16)
